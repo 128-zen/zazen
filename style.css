@@ -1886,6 +1886,9 @@ ul {
 }
 
 /* Explore Topics */
+.categories {
+  padding-top: 120px;
+}
 
 .categories .container {
   display: flex;
@@ -1953,8 +1956,8 @@ ul {
 
 .categories__section > svg, .category-page__article > svg, .section-page__article > svg, .featured-posts-item > svg {
   position: absolute;
-  right: -10px;
-  bottom: -10px;
+  right: 0;
+  top: 0;
   z-index: 3;
 }
 
@@ -1965,7 +1968,7 @@ ul {
 .categories__arrow {
   position: absolute;
   right: 0;
-  bottom: 0;
+  top: 0;
   z-index: 4;
   font-size: 0;
 }
@@ -1978,20 +1981,12 @@ ul {
   z-index: 6;
 }
 
-.categories__arrow svg rect:first-of-type {
-  fill: $primary_button_color;
-}
-
-.categories__arrow svg rect:last-of-type {
-  stroke: $primary_button_color;
-}
-
 .categories__arrow svg path {
-  stroke: $primary_button_text_color;
+  stroke: $text_primary;
 }
 
 .categories__arrow:hover svg {
-  transform: rotate(45deg);
+  transform: rotate(-45deg);
 }
 
 .categories__section:nth-child(n+7) {
@@ -2034,7 +2029,16 @@ ul {
   display: none;
 }
 
+@media (max-width: 1279px) {
+  .categories {
+    padding-top: 100px;
+  }
+}
+
 @media (max-width: 1023px) {
+  .categories {
+    padding-top: 80px;
+  }
   .categories > svg {
     display: none;
   }
@@ -2054,6 +2058,9 @@ ul {
   }
 }
 @media (max-width: 767px) {
+  .categories {
+    padding-top: 60px;
+  }
   .categories__sections, .categories__list {
     gap: 20px;
   }
