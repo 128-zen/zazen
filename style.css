@@ -1081,7 +1081,7 @@ ul {
   max-width: 1170px;
   overflow: hidden;
   margin: 0 15px ;
-  border-radius: 12px;
+  border-radius: 20px;
   padding: 80px;
   display: flex;
   flex-direction: column;
@@ -1093,23 +1093,6 @@ ul {
 .submit-request .container div, .submit-request h2, .submit-request p {
   position: relative;
   z-index: 4;
-}
-
-.submit-request svg {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
-.submit-request svg rect {
-  fill: $primary_button_color;
-}
-
-.submit-request svg:last-child {
-  left: auto;
-  bottom: auto;
-  right: 0;
-  top: 0;
 }
 
 .submit-request h2 {
@@ -1129,13 +1112,6 @@ ul {
 @media (max-width: 767px) {
   .submit-request .container {
     padding: 40px;
-  }
-  .submit-request svg {
-    height: 160px;
-    left: -60px;
-  }
-  .submit-request svg:last-child {
-    right: -80px;
   }
 }
 
