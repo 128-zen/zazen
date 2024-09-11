@@ -1398,19 +1398,15 @@ ul {
 .hero {
   overflow: hidden;
   position: relative;
+  margin-top: -88px;
+  border-radius: 0 0 60px 60px;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.00) 37.5%, rgba(0, 0, 0, 0.60) 100%), linear-gradient(0deg, rgba(38, 40, 44, 0.35) 0%, rgba(38, 40, 44, 0.35) 100%), url($banner_image) lightgray 50% / cover no-repeat;
 }
 
-.hero > div {
-  width: calc(100% - 40px);
-  margin: 0 auto;
-  border-radius: 20px;
-  background-color: $background_primary_color;
-}
-
-.hero > div .container {
+.hero > .container {
   display: flex;
   justify-content: center;
-  padding-top: 120px;
+  padding-top: 280px;
 }
 
 .hero__content {
@@ -1441,13 +1437,13 @@ ul {
   .hero > div {
     width: calc(100% - 30px);
   }
-  .hero > div .container {
-    padding-top: 100px;
+  .hero > .container {
+    padding-top: 260px;
   }
 }
 @media (max-width: 1023px) {
-  .hero > div .container {
-    padding-top: 80px;
+  .hero > .container {
+    padding-top: 240px;
   }
 }
 @media (max-width: 767px) {
@@ -1459,8 +1455,8 @@ ul {
   .hero__content p {
     margin-bottom: 40px;
   }
-  .hero > div .container {
-    padding-top: 60px;
+  .hero > .container {
+    padding-top: 220px;
   }
 }
 

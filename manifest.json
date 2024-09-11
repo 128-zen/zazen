@@ -1,7 +1,7 @@
 {
   "name": "Zazen 128",
   "author": "128zen",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -415,6 +415,12 @@
           "description": "Show hero subtitle",
           "label": "Toggle Subtitle Component",
           "value": true
+        },
+        {
+          "identifier": "banner_image",
+          "type": "file",
+          "description": "Choose banner backgroung image",
+          "label": "Background Image"
         }
       ]
     },
