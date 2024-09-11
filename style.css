@@ -1946,11 +1946,7 @@ ul {
   background-color: $background_primary_color;
 }
 
-.categories__section h5 a {
-  color: $text_secondary;
-}
-
-.categories__section h5 a:hover, .categories__section li a:hover {
+.categories__section li a:hover {
   color: $hover_link_color;
 }
 
@@ -2013,12 +2009,16 @@ ul {
   color: $body_primary;
 }
 
-.categories__section li svg {
+.categories__section li div {
+  padding: 8px;
+  font-size: 0;
+  border-radius: 10px;
+  background-color: $body_background_color;
   flex: 0 0 auto;
 }
 
 .categories__section li svg path {
-  fill: $hover_link_color;
+  fill: $primary_button_color;
 }
 
 .categories__section li:nth-child(3) {
