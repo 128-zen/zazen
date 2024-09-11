@@ -675,6 +675,12 @@ ul {
   z-index: 99;
 }
 
+.header > div {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: $background_quaternary_color;
+}
+
 .header .container {
   position: relative;
   align-items: center;
