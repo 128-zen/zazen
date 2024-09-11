@@ -472,6 +472,39 @@
       ]
     },
     {
+      "label": "Homepage Promoted Articles Section",
+      "variables": [
+        {
+          "identifier": "show_fourth_section",
+          "type": "checkbox",
+          "description": "Show section",
+          "label": "Toggle Section",
+          "value": true
+        },
+        {
+          "identifier": "fourth_section_heading",
+          "type": "text",
+          "description": "Enter section heading",
+          "label": "Section Heading",
+          "value": "Promoted articles"
+        },       
+        {
+          "identifier": "fourth_section_button",
+          "type": "text",
+          "description": "Enter text",
+          "label": "Section Button Text",
+          "value": "View all"
+        },
+        {
+          "identifier": "fourth_section_button_link",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Section Button Link",
+          "value": "#"
+        }
+      ]
+    },
+    {
       "label": "Homepage Videos Section",
       "variables": [
         {
