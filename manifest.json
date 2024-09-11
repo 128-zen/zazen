@@ -853,61 +853,6 @@
       ]
     },
     {
-      "label": "Homepage Partners Section",
-      "variables": [
-        {
-          "identifier": "show_partners",
-          "type": "checkbox",
-          "description": "Show section",
-          "label": "Toggle Section",
-          "value": true
-        },
-        {
-          "identifier": "partners_description",
-          "type": "text",
-          "description": "Enter section description",
-          "label": "Section Description",
-          "value": "Trusted by 3000+ partners & customers"
-        },
-        {
-          "identifier": "partners_item1_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 1 Image"
-        },
-        {
-          "identifier": "partners_item2_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 2 Image"
-        },
-        {
-          "identifier": "partners_item3_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 3 Image"
-        },
-        {
-          "identifier": "partners_item4_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 4 Image"
-        },
-        {
-          "identifier": "partners_item5_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 5 Image"
-        },
-        {
-          "identifier": "partners_item6_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 6 Image"
-        }
-      ]
-    },
-    {
       "label": "Category Page",
       "variables": [
         {
