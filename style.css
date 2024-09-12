@@ -1309,7 +1309,7 @@ ul {
   -webkit-appearance: none;
   box-sizing: border-box;
   border: 1px solid $border_color;
-  background-color: $background_tertiary_color;
+  background-color: $banner_input_background;
   color: $body_primary;
   flex: 1 1 auto;
   font-size: 16px;
@@ -2184,7 +2184,9 @@ ul {
 .videos__item > div:last-of-type {
   padding: 20px;
   border-radius: 20px;
+  text-align: left;
   box-shadow: 0px 33px 80px 0px rgba(0, 0, 0, 0.04), 0px 14px 22px 0px rgba(0, 0, 0, 0.03), 0px 7px 18px 0px rgba(0, 0, 0, 0.02), 0px 4px 10px 0px rgba(0, 0, 0, 0.02), 0px 2px 5px 0px rgba(0, 0, 0, 0.01);
+  background-color: $background_text_block_color;
 }
 
 .videos__item h4 {

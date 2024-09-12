@@ -1,7 +1,7 @@
 {
   "name": "Zazen 128",
   "author": "128zen",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -421,6 +421,13 @@
           "type": "file",
           "description": "Choose banner backgroung image",
           "label": "Background Image"
+        },
+        {
+          "identifier": "banner_input_background",
+          "type": "color",
+          "description": "Choose input background color",
+          "label": "Input Background Color",
+          "value": "#fff"
         }
       ]
     },
