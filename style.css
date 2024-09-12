@@ -2189,14 +2189,14 @@ ul {
   background-color: $background_text_block_color;
 }
 
-.videos__item h4 {
+.videos__item h5 {
   display: inline-block;
   cursor: pointer;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   transition: all .3s ease;
 }
 
-.videos__item h4:hover {
+.videos__item h5:hover {
   color: $hover_link_color;
 }
 
