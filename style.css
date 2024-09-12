@@ -2095,14 +2095,14 @@ ul {
 }
 .promoted-articles__items {
   display: flex;
-  gap: 20px 110px;
+  gap: 20px 60px;
   flex-wrap: wrap;
 }
 .promoted-articles__item {
-  width: calc(33.3% - 73.3px);
+  width: calc(33.3% - 40px);
 }
 .promoted-articles__item a {
-  text-decoration: underline;
+  border-bottom: 1px solid $hover_link_color;
   color: $body_primary;
 }
 .promoted-articles__item a:hover {
@@ -2114,7 +2114,7 @@ ul {
     margin-bottom: 40px;
   }
   .promoted-articles__item {
-    width: calc(50% - 60px);
+    width: calc(50% - 30px);
   }
 }
 @media (max-width: 767px) {
