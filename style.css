@@ -2828,11 +2828,11 @@ ul {
   background-color: $background_primary_color;
 }
 
-.category-page__article a, .section-page__article a {
+.category-page__article > div a, .section-page__article > div a {
   color: $text_secondary;
 }
 
-.category-page__article a:hover, .section-page__article a:hover {
+.category-page__article > div a:hover, .section-page__article > div a:hover {
   color: $hover_link_color;
 }
 
@@ -2847,7 +2847,7 @@ ul {
 .category-page__article > div:first-of-type, .section-page__article > div:first-of-type, .striped-list-item-body {
   max-height: 67px;
   overflow: hidden;
-  margin: 20px 0 30px;
+  margin-top: 20px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
@@ -2872,7 +2872,7 @@ ul {
   height: 100%;
 }
 
-.category-page__article > div:last-of-type:hover svg, .section-page__article > div:last-of-type:hover svg, .featured-posts-btn:hover svg {
+.featured-posts-btn:hover svg {
   transform: rotate(45deg);
 }
 
