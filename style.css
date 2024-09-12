@@ -2301,17 +2301,13 @@ ul {
 }
 
 .faq__item {
+  position: relative;
   width: 100%;
   cursor: pointer;
-  padding: 20px 30px;
+  padding: 30px;
   border-radius: 20px;
   align-self: flex-start;
   background-color: $background_tertiary_color;
-}
-
-.faq__item.open {
-  background-color: $primary_button_color;
-  border: 1px solid $primary_button_color;
 }
 
 .faq__item h6 {
@@ -2319,7 +2315,7 @@ ul {
 }
 
 .faq__item.open h6 {
-  color: $primary_button_text_color;
+  color: $hover_link_color;
 }
 
 .faq__item:hover h6 {
@@ -2327,14 +2323,7 @@ ul {
 }
 
 .faq__item.open:hover h6 {
-  color: $primary_button_text_color;
-}
-
-.faq__item div {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  justify-content: space-between;
+  color: $hover_link_color;
 }
 
 .faq__item span {
@@ -2354,16 +2343,12 @@ ul {
   top: 0;
 }
 
+.faq__item.open .categories__arrow svg {
+  transform: rotate(90deg);
+}
+
 .faq__item.open div {
   margin-bottom: 20px;
-}
-
-.faq__item.open span {
-  background-color: $background_primary_color;
-}
-
-.faq__item.open svg {
-  transform: rotate(90deg);
 }
 
 .faq__item p {
