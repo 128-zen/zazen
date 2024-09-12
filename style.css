@@ -2265,10 +2265,6 @@ ul {
 }
 
 /* FAQ */
-.faq {
-  padding-top: 320px;
-  background-color: $background_primary_color;
-}
 
 .faq .container h2 {
   text-align: center;
@@ -2280,6 +2276,20 @@ ul {
   text-align: center;
   margin-bottom: 60px;
   color: $body_primary;
+}
+
+.faq__content {
+  display: flex;
+  gap: 30px;
+}
+
+.faq__content > div {
+  width: calc(50% - 15px);
+}
+
+.faq__image {
+  border-radius: 30px;
+  background: $faq_image;
 }
 
 .faq__items {
@@ -2376,23 +2386,11 @@ ul {
 }
 
 @media (max-width: 1023px) {
-  .faq {
-    padding-top: 300px;
-  }
-}
-
-@media (max-width: 1023px) {
-  .faq {
-    padding-top: 280px;
-  }
   .faq__item {
     padding: 20px;
   }
 }
 @media (max-width: 767px) {
-  .faq {
-    padding-top: 260px;
-  }
   .faq .container > p {
     margin-bottom: 40px;
   }
