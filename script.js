@@ -263,6 +263,16 @@
   document.addEventListener('DOMContentLoaded', animateElements);
   window.addEventListener('scroll', animateElements);
 
+  document.addEventListener("DOMContentLoaded", function() {
+    const heroSection = document.querySelector('.hero');
+    const categoryPage = document.querySelector('.category-page');
+  
+    if (heroSection && !categoryPage) {
+      const nextSection = heroSection.nextElementSibling;
+      nextSection.classList.add('second-section');
+    }
+  });
+  
 
   //DEFAULT THEME CODE
 
