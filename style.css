@@ -2269,7 +2269,6 @@ ul {
 .faq .container h2 {
   text-align: center;
   margin-bottom: 20px;
-  color: $text_secondary;
 }
 
 .faq .container > p {
@@ -2289,7 +2288,7 @@ ul {
 
 .faq__image {
   border-radius: 30px;
-  background: $faq_image;
+  background: url($faq_image);
 }
 
 .faq__items {
@@ -2299,13 +2298,12 @@ ul {
 }
 
 .faq__item {
-  width: calc(50% - 15px);
+  width: 100%;
   cursor: pointer;
   padding: 20px 30px;
-  border-radius: 12px;
+  border-radius: 20px;
   align-self: flex-start;
-  background-color: $background_secondary_color;
-  border: 1px solid $border_color;
+  background-color: $background_tertiary_color;
 }
 
 .faq__item.open {
@@ -2398,7 +2396,10 @@ ul {
     gap: 20px;
     padding: 20px;
   }
-  .faq__item {
+  .faq__content {
+    flex-direction: column;
+  }
+  .faq__content > div {
     width: 100%;
   }
 }
