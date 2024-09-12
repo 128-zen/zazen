@@ -2288,10 +2288,10 @@ ul {
 
 .faq__image {
   border-radius: 30px;
+  background: url($faq_image);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background: url($faq_image);
 }
 
 .faq__items {
@@ -2311,6 +2311,7 @@ ul {
 }
 
 .faq__item h6 {
+  max-width: calc(100% - 40px);
   transition: all .3s ease;
 }
 
@@ -2326,12 +2327,6 @@ ul {
   color: $hover_link_color;
 }
 
-.faq__item span {
-  font-size: 0;
-  padding: 10px 9px;
-  border-radius: 15px;
-  background-color: $primary_button_color;
-}
 
 .faq__item:last-child {
   margin-bottom: 0;
@@ -2343,11 +2338,15 @@ ul {
   top: 0;
 }
 
+.faq__item .categories__arrow:hover svg {
+  transform: none;
+}
+
 .faq__item.open .categories__arrow svg {
   transform: rotate(90deg);
 }
 
-.faq__item.open div {
+.faq__item.open h6 {
   margin-bottom: 20px;
 }
 
@@ -2359,7 +2358,6 @@ ul {
   overflow: hidden;
   opacity: 0;
   transition: all 0.2s linear;
-  color: $primary_button_text_color;
 }
 
 .faq__item.open p {
