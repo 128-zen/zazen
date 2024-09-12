@@ -1,7 +1,7 @@
 {
   "name": "Zazen 128",
   "author": "128zen",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -534,6 +534,13 @@
           "description": "Insert link",
           "label": "Section Button Link",
           "value": "#"
+        },
+        {
+          "identifier": "background_text_block_color",
+          "type": "color",
+          "description": "Choose background text block color",
+          "label": "Background Text Block Color",
+          "value": "#fff"
         },
         {
           "identifier": "videos_img1",
