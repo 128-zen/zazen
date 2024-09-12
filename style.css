@@ -2766,7 +2766,7 @@ ul {
 .category-page .hero h1 {
   max-width: 900px;
   text-align: center;
-  color: $text_secondary;
+  color: $text_primary;
 }
 
 .category-page .hero p {
@@ -2774,7 +2774,7 @@ ul {
   font-size: 20px;
   margin-bottom: 60px;
   max-width: 645px;
-  color: $text_secondary;
+  color: $body_primary;
 }
 
 .category-page__content {
