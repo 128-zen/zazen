@@ -2288,6 +2288,9 @@ ul {
 
 .faq__image {
   border-radius: 30px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background: url($faq_image);
 }
 
@@ -2345,6 +2348,12 @@ ul {
   margin-bottom: 0;
 }
 
+.faq__item > svg {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 .faq__item.open div {
   margin-bottom: 20px;
 }
@@ -2355,14 +2364,6 @@ ul {
 
 .faq__item.open svg {
   transform: rotate(90deg);
-}
-
-.faq__item svg path {
-  stroke: $primary_button_text_color;
-}
-
-.faq__item.open svg path {
-  stroke: $text_secondary;
 }
 
 .faq__item p {
