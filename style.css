@@ -2750,6 +2750,9 @@ ul {
 }
 
 /***** Category pages *****/
+.category-page .hero {
+  background: $background_quaternary_color;
+}
 
 .category-page .hero .container {
   position: relative;
@@ -2757,6 +2760,7 @@ ul {
   flex-direction: column;
   align-items: center;
   gap: 0;
+  padding-top: 180px;
 }
 
 .category-page .hero h1 {
@@ -2884,12 +2888,18 @@ ul {
 }
 
 @media(max-width: 1279px) {
+  .category-page .hero .container {
+    padding-top: 160px;
+  }
   .category-page__content {
     padding-top: 100px;
   }
 }
 
 @media(max-width: 1023px) {
+  .category-page .hero .container {
+    padding-top: 140px;
+  }
   .category-page__content {
     padding-top: 80px;
   }
@@ -2909,6 +2919,9 @@ ul {
 }
 
 @media(max-width: 767px) {
+  .category-page .hero .container {
+    padding-top: 120px;
+  }
   .category-page .hero p {
     margin-bottom: 40px;
   }
