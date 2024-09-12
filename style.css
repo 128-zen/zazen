@@ -2829,11 +2829,11 @@ ul {
 }
 
 .category-page__article > div a, .section-page__article > div a {
-  color: $text_secondary;
+  color: $hover_link_color;
 }
 
 .category-page__article > div a:hover, .section-page__article > div a:hover {
-  color: $hover_link_color;
+  color: $text_primary;
 }
 
 .category-page__article > div:first-of-type p, .category-page__article > div:first-of-type div, .section-page__article > div:first-of-type p, .section-page__article > div:first-of-type div {
