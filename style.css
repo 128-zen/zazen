@@ -368,7 +368,7 @@ textarea {
   padding: 18px;
   height: 140px;
   border: 1px solid $border_color;
-  background-color: $background_tertiary_color;
+  background-color: $banner_input_background;
 }
 
 .container {
@@ -441,14 +441,14 @@ ul {
 }
 
 .comment-form-controls input[type=submit] {
-  background-color: $primary_button_color;
-  border: 1px solid $primary_button_color;
-  color: $primary_button_text_color;
+  background-color: $secondary_button_color;
+  border: 1px solid $secondary_button_color;
+  color: $text_secondary;
 }
 
 .comment-form-controls input[type=submit]:hover {
-  background-color: $background_primary_color;
-  border: 1px solid $background_primary_color;
+  background-color: $primary_button_color;
+  border: 1px solid $primary_button_color;
   color: $text_secondary;
 }
 
@@ -3024,7 +3024,7 @@ ul {
   margin-top: 15px;
   flex-direction: column;
   align-items: start;
-  border-left: 1px solid $primary_button_color;
+  border-left: 1px solid $hover_link_color;
 }
 
 .nav__sections.open {
@@ -3169,7 +3169,7 @@ ul {
   margin-top: 20px;
   flex-direction: column;
   align-items: start;
-  border-left: 1px solid $primary_button_color;
+  border-left: 1px solid $hover_link_color;
 }
 
 .nav__articles li {
@@ -3422,7 +3422,7 @@ ul {
 }
 .article-body blockquote, .post-body blockquote {
   padding: 0 20px;
-  border-left: 1px solid $primary_button_color;
+  border-left: 1px solid $hover_link_color;
   margin: 0;
   color: $body_primary;
 }
@@ -3513,9 +3513,6 @@ ul {
   background: $background_primary_color;
 }
 
-.article-votes h3 {
-  color: $text_secondary;
-}
 
 .article-votes p {
   color: $body_primary;
@@ -3524,11 +3521,11 @@ ul {
 .article-votes a {
   font-weight: 700;
   font-size: 16px;
-  color: $text_secondary;
+  color: $hover_link_color;
 }
 
 .article-votes a:hover {
-  color: $hover_link_color;
+  color: $text_primary;
 }
 
 .article-vote {
@@ -3537,16 +3534,16 @@ ul {
   cursor: pointer;
   border: none;
   border-radius: 6px;
-  background-color: $background_tertiary_color;
+  background-color: $body_background_color;
 }
 .article-vote path {
   fill: $text_primary;
 }
 .article-vote:hover {
-  background-color: $primary_button_color;
+  background-color: $secondary_button_color;
 }
 .article-vote:hover path {
-  fill: $primary_button_text_color;
+  fill: $text_secondary;
 }
 .article-votes-count {
   margin-bottom: 10px;
