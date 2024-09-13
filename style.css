@@ -1548,9 +1548,6 @@ ul {
   flex-grow: 1;
   margin-bottom: 0;
 }
-.posts h1 {
-  color: $text_secondary;
-}
 .page-header-description {
   margin: 10px 0 30px 0;
   word-break: break-word;
@@ -1573,14 +1570,14 @@ ul {
 }
 
 .page-header .dropdown-toggle div, .featured-posts-btn > div {
-  padding: 16px;
+  padding: 14px;
   border-radius: 50px;
   font-size: 0;
-  background-color: $primary_button_color;
+  background-color: $secondary_button_color;
 }
 
 .page-header .dropdown-toggle path {
-  stroke: $primary_button_text_color;
+  stroke: $text_secodary;
 }
 
 .featured-posts-btn svg path {
@@ -3384,7 +3381,7 @@ ul {
 }
 
 .article-body ul li::marker, .post-body ul li::marker {
-  color: $body_tertiary;
+  color: $hover_link_color;
 }
 
 [dir=rtl] .article-body ul,
@@ -3750,7 +3747,6 @@ ul {
   padding-bottom: 30px;
   margin-bottom: 30px;
   border-bottom: 1px solid $border_color;
-  background-color: $background_tertiary_color;
 }
 .comment:last-of-type {
   margin-bottom: 0;
@@ -4150,12 +4146,9 @@ ul {
   margin-bottom: 30px;
 }
 .community-header .title {
-  padding: 6px 14px;
-  border-radius: 50px;
   margin-bottom: 0;
   font-size: 18px;
   transition: all .3s ease;
-  background-color: $primary_button_color;
 }
 
 .post-to-community {
@@ -4302,8 +4295,9 @@ ul {
   padding: 10px 20px;
   border-radius: 50px;
   transition: all .3s ease;
-  border: 1px solid $border_color;
-  background-color: transparent;
+  color: $text_primary;
+  box-shadow: 0px 33px 80px 0px rgba(0, 0, 0, 0.04), 0px 14px 22px 0px rgba(0, 0, 0, 0.03), 0px 7px 18px 0px rgba(0, 0, 0, 0.02), 0px 4px 10px 0px rgba(0, 0, 0, 0.02), 0px 2px 5px 0px rgba(0, 0, 0, 0.01);
+  background-color: $body_background_color;
 }
 
 .profile-section-sorter .dropdown-toggle svg path {
@@ -4311,18 +4305,17 @@ ul {
 }
 
 .posts .dropdown-toggle {
-  color: $text_secondary;
+  color: $text_primary;
 }
 
 .posts .dropdown-toggle svg path {
-  fill: $text_secondary;
+  fill: $text_primary;
 }
 
 .topic-header .dropdown-toggle:hover, .topic-header .dropdown-toggle[aria-expanded='true'], .my-activities-following-header .dropdown-toggle:hover, .my-activities-following-header .dropdown-toggle[aria-expanded='true'], .profile-section-sorter .dropdown-toggle:hover, .profile-section-sorter .dropdown-toggle[aria-expanded='true'] {
   box-shadow: none;
-  background-color: $primary_button_color;
-  border: 1px solid $primary_button_color;
-  color: $primary_button_text_color;
+  background-color: $secondary_button_color;
+  color: $text_secondary;
 }
 
 .topic-header .dropdown-toggle:hover svg, .topic-header .dropdown-toggle[aria-expanded='true'] svg, .my-activities-following-header .dropdown-toggle:hover svg, .my-activities-following-header .dropdown-toggle[aria-expanded='true'] svg, .profile-section-sorter .dropdown-toggle:hover svg, .profile-section-sorter .dropdown-toggle[aria-expanded='true'] svg {
@@ -4330,7 +4323,7 @@ ul {
 }
 
 .topic-header .dropdown-toggle:hover svg path, .topic-header .dropdown-toggle[aria-expanded='true'] svg path, .my-activities-following-header .dropdown-toggle:hover svg path, .my-activities-following-header .dropdown-toggle[aria-expanded='true'] svg path, .profile-section-sorter .dropdown-toggle:hover svg path, .profile-section-sorter .dropdown-toggle[aria-expanded='true'] svg path {
-  fill: $primary_button_text_color;
+  fill: $text_secondary;
 }
 
 
@@ -4386,7 +4379,8 @@ ul {
   padding: 30px;
   width: calc(33.3% - 20px);
   border-radius: 20px;
-  background-color: $background_secondary_color;
+  box-shadow: 0px 33px 80px 0px rgba(0, 0, 0, 0.04), 0px 14px 22px 0px rgba(0, 0, 0, 0.03), 0px 7px 18px 0px rgba(0, 0, 0, 0.02), 0px 4px 10px 0px rgba(0, 0, 0, 0.02), 0px 2px 5px 0px rgba(0, 0, 0, 0.01);
+  background-color: $body_background_color;
 } 
 
 .striped-list-title {
@@ -4422,7 +4416,7 @@ ul {
   display: none;
 }
 .striped-list-count-item svg path {
-  fill: $primary_button_color;
+  fill: $secondary_button_color;
 }
 .striped-list-number {
   text-align: center;
@@ -4438,8 +4432,10 @@ ul {
   left: 35px;
 }
 .post-list-page .posts {
-  background-color: $background_primary_color;
-  padding-top: 120px;
+  margin-top: -88px;
+  border-radius: 0 0 60px 60px;
+  background-color: $background_quaternary_color;
+  padding-top: 180px;
 }
 
 .post-list-page .community-featured-posts, .community-page .community-featured-posts {
@@ -4451,7 +4447,7 @@ ul {
     padding-top: 100px;
   }
   .post-list-page .posts {
-    padding-top: 100px;
+    padding-top: 160px;
   }
 }
 
@@ -4460,7 +4456,7 @@ ul {
   padding-top: 80px;
 }
   .post-list-page .posts {
-    padding-top: 80px;
+    padding-top: 140px;
   }
   .posts-item {
     width: calc(50% - 15px);
@@ -4474,7 +4470,7 @@ ul {
     padding-top: 60px;
   }
   .post-list-page .posts {
-    padding-top: 60px;
+    padding-top: 120px;
   }
   .topic-header {
     flex-direction: column;
@@ -4494,9 +4490,9 @@ ul {
 /***** Status labels *****/
 /* Styles labels used in posts, articles and requests */
 .status-label {
-  background-color: $primary_button_color;
+  background-color: $secondary_button_color;
   border-radius: 20px;
-  color: $primary_button_text_color;
+  color: $text_secondary;
   font-size: 14px;
   font-weight: 400;
   margin-right: 2px;
@@ -4809,15 +4805,6 @@ ul {
 /* .post-sidebar .button, .community-footer .button, .topic-header .button {
   padding: 15px 25px;
 } */
-.posts .topic-header .button {
-  background-color: $background_tertiary_color;
-  border: 1px solid $background_tertiary_color;
-}
-.posts .topic-header .button:hover {
-  background-color: $primary_button_color;
-  border: 1px solid $primary_button_color;
-  color: $primary_button_text_color;
-}
 .comment-form-controls label {
   margin-right: 30px;
 }
