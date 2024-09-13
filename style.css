@@ -2636,8 +2636,8 @@ ul {
   line-height: normal;
   padding: 5px 10px;
   background-color: transparent;
-  border: 1px solid $text_primary;
-  color: $border_color;
+  border: 1px solid $border_color;
+  color: $text_primary;
   border-radius: 20px;
 }
 
@@ -2722,6 +2722,7 @@ ul {
 .recent-activity-comment-icon:after {
   content: attr(data-comment-count);
   margin-left: 3px;
+  color: $secondary_button_color;
 }
 [dir=rtl] .recent-activity-comment-icon:after {
   margin-left: 0;
@@ -4213,11 +4214,13 @@ ul {
 
 /* Community topics grid */
 .topics {
-  padding-top: 120px;
+  padding-top: 180px;
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: $background_primary_color;
+  margin-top: -88px;
+  border-radius: 0 0 60px 60px;
+  background-color: $background_quaternary_color;
 }
 .topics h1 {
   text-align: left;
@@ -4244,8 +4247,6 @@ ul {
 }
 .activity .button {
   margin-top: 50px;
-  color: $text_primary;
-  background-color: $secondary_button_color;
 }
 
 .homepage-activity {
@@ -4254,7 +4255,7 @@ ul {
 
 @media (max-width: 1279px) {
   .topics {
-    padding-top: 100px;
+    padding-top: 160px;
   }
   .homepage-activity {
     padding: 100px 0;
@@ -4263,7 +4264,7 @@ ul {
 
 @media (max-width: 1023px) {
   .topics {
-    padding-top: 80px;
+    padding-top: 140px;
   }
   .homepage-activity {
     padding: 80px 0;
@@ -4272,7 +4273,7 @@ ul {
 
 @media (max-width: 767px) {
   .topics {
-    padding-top: 60px;
+    padding-top: 120px;
   }
   .homepage-activity {
     padding: 60px 0;
@@ -4312,7 +4313,7 @@ ul {
 }
 
 .posts .dropdown-toggle svg path {
-  fill: $text_secondary;
+  fill: $text_primary;
 }
 
 .topic-header .dropdown-toggle:hover, .topic-header .dropdown-toggle[aria-expanded='true'], .my-activities-following-header .dropdown-toggle:hover, .my-activities-following-header .dropdown-toggle[aria-expanded='true'], .profile-section-sorter .dropdown-toggle:hover, .profile-section-sorter .dropdown-toggle[aria-expanded='true'] {
