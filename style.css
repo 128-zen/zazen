@@ -1495,14 +1495,19 @@ ul {
 
 .popular-keywords {
   display: flex;
-  align-items: center;
   gap: 10px;
-  flex-wrap: wrap;
   margin-top: 30px;
 } 
 .popular-keywords p {
   margin-bottom: 0;
   font-size: 16px;
+  max-width: 40%;
+}
+.popular-keywords__items {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex: 1;
 }
 .popular-keywords a {
   letter-spacing: 0.16px;
@@ -1518,6 +1523,18 @@ ul {
 .popular-keywords a:hover {
   background-color: $background_secondary_color;
   color: $text_primary;
+}
+
+@media (max-width: 767px) {
+  .popular-keywords {
+    flex-direction: column;
+  }
+  .popular-keywords p {
+    max-width: none;
+  }
+  .popular-keywords__items {
+    justify-content: center;
+  }
 }
 
 .page-header {
