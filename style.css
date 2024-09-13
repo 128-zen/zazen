@@ -1577,7 +1577,7 @@ ul {
 }
 
 .page-header .dropdown-toggle path {
-  stroke: $text_secodary;
+  stroke: $text_secondary;
 }
 
 .featured-posts-btn svg path {
@@ -2619,7 +2619,7 @@ ul {
   padding: 30px;
   width: calc(33.3% - 20px);
   border-radius: 20px;
-  background-color: $background_primary_color;
+  background-color: $background_tertiary_color;
 }
 
 .homepage-activity .recent-activity-item:nth-child(n+4) {
@@ -2636,15 +2636,15 @@ ul {
   line-height: normal;
   padding: 5px 10px;
   background-color: transparent;
-  border: 1px solid $text_secondary;
-  color: $text_secondary;
+  border: 1px solid $text_primary;
+  color: $border_color;
   border-radius: 20px;
 }
 
 .recent-activity-item-parent:hover {
-  border: 1px solid $primary_button_color;
-  background-color: $primary_button_color;
-  color: $primary_button_text_color;
+  border: 1px solid $secondary_button_color;
+  background-color: $secondary_button_color;
+  color: $text_secondary;
 }
 
 .recent-activity-item-link {
@@ -2654,7 +2654,6 @@ ul {
   letter-spacing: normal;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: $text_secondary;
 }
 .recent-activity-item-link:hover {
   color: $hover_link_color;
@@ -2718,7 +2717,7 @@ ul {
   height: 16px;
 }
 .recent-activity-comment-icon svg path {
-  stroke: $highlight_color;
+  stroke: $secondary_button_color;
 }
 .recent-activity-comment-icon:after {
   content: attr(data-comment-count);
@@ -2848,6 +2847,10 @@ ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
+}
+
+.striped-list-item-body {
+  margin-bottom: 30px;
 }
 
 .featured-posts-btn {
@@ -4169,8 +4172,8 @@ ul {
 .featured-posts-item {
   position: relative;
   border-radius: 20px;
-  padding: 30px 80px 30px 30px;
-  background: $background_secondary_color;
+  padding: 30px;
+  background: $background_primary_color;
   width: calc(33.3% - 20px);
 }
 .featured-posts-btn {
@@ -4184,7 +4187,7 @@ ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
-  margin: 20px 0 30px;
+  margin-top: 20px;
   color: $body_primary;
 }
 .featured-posts-item .icon-lock {
@@ -4309,7 +4312,7 @@ ul {
 }
 
 .posts .dropdown-toggle svg path {
-  fill: $text_primary;
+  fill: $text_secondary;
 }
 
 .topic-header .dropdown-toggle:hover, .topic-header .dropdown-toggle[aria-expanded='true'], .my-activities-following-header .dropdown-toggle:hover, .my-activities-following-header .dropdown-toggle[aria-expanded='true'], .profile-section-sorter .dropdown-toggle:hover, .profile-section-sorter .dropdown-toggle[aria-expanded='true'] {
