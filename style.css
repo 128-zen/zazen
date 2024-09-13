@@ -1531,6 +1531,7 @@ ul {
   }
   .popular-keywords p {
     max-width: none;
+    text-align: center;
   }
   .popular-keywords__items {
     justify-content: center;
@@ -1647,7 +1648,8 @@ ul {
   padding: 30px;
   width: calc(33.3% - 20px);
   border-radius: 20px;
-  background-color: $background_secondary_color;
+  box-shadow: 0px 33px 80px 0px rgba(0, 0, 0, 0.04), 0px 14px 22px 0px rgba(0, 0, 0, 0.03), 0px 7px 18px 0px rgba(0, 0, 0, 0.02), 0px 4px 10px 0px rgba(0, 0, 0, 0.02), 0px 2px 5px 0px rgba(0, 0, 0, 0.01);
+  background-color: $body_background_color;
 }
 .blocks-item {
   display: flex;
@@ -4241,7 +4243,6 @@ ul {
 }
 .topics h1 {
   text-align: left;
-  color: $text_secondary;
 }
 .topics-item .meta-group {
   justify-content: center;
