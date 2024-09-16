@@ -6530,7 +6530,7 @@ ul {
 }
 .search-result-description em {
   padding: 0 3px;
-  background-color: $primary_button_color;
+  background-color: $secondary_button_color;
   color: $text_secondary;
 }
 .search-result-bottom {
