@@ -5917,7 +5917,6 @@ ul {
 
 .profile-section {
   width: 100%;
-  margin-bottom: 120px;
 }
 @media (min-width: 1024px) {
   .profile-section {
@@ -6269,10 +6268,10 @@ ul {
   border-radius: 50%;
   background-size: 14px 14px;
   background-repeat: no-repeat;
-  background-color: $primary_button_color;
+  background-color: $body_background_color;
   background-position: 50% 50%;
   text-align: center;
-  color: $primary_button_text_color;
+  color: $secondary_button_color;
 }
 [dir=rtl] .profile-activity-icon {
   right: 0;
@@ -6295,16 +6294,7 @@ ul {
   margin: auto;
 }
 
-@media (max-width: 1279px) {
-  .profile-section {
-    margin-bottom: 100px;
-  }
-}
-
 @media (max-width: 1023px) {
-  .profile-section {
-    margin-bottom: 80px;
-  }
   .profile-lists {
     flex-wrap: wrap;
     margin-top: 0;
@@ -6314,9 +6304,6 @@ ul {
   }
 }
 @media (max-width: 767px) {
-  .profile-section {
-    margin-bottom: 60px;
-  }
   .profile-info {
     flex-direction: column;
     align-items: center;
