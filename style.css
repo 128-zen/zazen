@@ -2562,7 +2562,6 @@ ul {
 .error-page {
   text-align: center;
   padding-top: 60px;
-  padding-bottom: 120px;
   flex-grow: 1;
 }
 .error-page .container {
@@ -2594,15 +2593,7 @@ ul {
   color: $text_primary;
 }
 
-@media (max-width: 1023px) {
-  .error-page {
-    padding-bottom: 80px;
-  }
-}
 @media (max-width: 767px) {
-  .error-page {
-    padding-bottom: 60px;
-  }
   .error-page h1 {
     font-size: 90px;
   }
