@@ -6288,7 +6288,6 @@ ul {
 
 .search-results-page .container {
   padding-top: 80px;
-  padding-bottom: 120px;
   display: flex;
   gap: 50px;
 }
@@ -6492,14 +6491,8 @@ ul {
     margin-right: 20px;
   }
 }
-@media (max-width: 1279px) {
-  .search-results-page .container {
-    padding-bottom: 100px;
-  }
-}
 @media (max-width: 1023px) {
   .search-results-page .container {
-    padding-bottom: 80px;
     gap: 30px;
     flex-direction: column-reverse;
   }
@@ -6516,7 +6509,6 @@ ul {
 @media (max-width: 767px) {
   .search-results-page .container {
     padding-top: 60px;
-    padding-bottom: 60px;
   }
   .search-results-sidebar {
     max-width: none;
