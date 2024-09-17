@@ -1,7 +1,7 @@
 {
   "name": "Zazen 128",
   "author": "128zen",
-  "version": "1.0.41",
+  "version": "1.0.42",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -58,13 +58,6 @@
           "value": "#26282C"
         },
         {
-          "identifier": "text_secondary",
-          "type": "color",
-          "description": "Choose text secondary color",
-          "label": "Text Secondary Color",
-          "value": "#fff"
-        },
-        {
           "identifier": "primary_button_color",
           "type": "color",
           "description": "Choose primary button background color",
@@ -72,11 +65,25 @@
           "value": "#26282C"
         },
         {
+          "identifier": "primary_button_text_color",
+          "type": "color",
+          "description": "Choose primary button text color",
+          "label": "Primary Button Text Color",
+          "value": "#fff"
+        },
+        {
           "identifier": "secondary_button_color",
           "type": "color",
           "description": "Choose secondary button background color",
           "label": "Secondary Button Background Color",
           "value": "#FD1774"
+        },
+        {
+          "identifier": "secondary_button_text_color",
+          "type": "color",
+          "description": "Choose secondary button text color",
+          "label": "Secondary Button Text Color",
+          "value": "#fff"
         },
         {
           "identifier": "hover_link_color",
