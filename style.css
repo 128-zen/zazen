@@ -6726,7 +6726,7 @@ html[dir=rtl] .notification-left-aligned {
   color: $text_primary;
 }
 .dropdown-toggle p {
-  color: $secondary_button_text_color;
+  color: $text_primary;
 }
 .dropdown-toggle span {
   font-size: 18px;
