@@ -272,6 +272,16 @@
     }
   });
   
+  document.addEventListener('DOMContentLoaded', function() {
+    const hero = document.querySelector('.hero');
+    const categoryPage = document.querySelector('.category-page');
+    const findSolution = document.querySelector('.find-solution');
+    const footer = document.querySelector('footer');
+    
+    if (hero && !categoryPage && !findSolution) {
+        footer.style.paddingTop = '0';
+    }
+  });
 
   //DEFAULT THEME CODE
 
