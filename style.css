@@ -730,6 +730,7 @@ ul {
 }
 .logo span {
   margin: 0 10px;
+  flex: 0 0 auto;
   color: $brand_color;
 }
 
@@ -1427,7 +1428,7 @@ ul {
 
 .hero__content p {
   font-size: 20px;
-  margin-bottom: 45px;
+  margin-top: 20px;
   max-width: 645px;
   color: $secondary_button_text_color;
 }
@@ -1451,9 +1452,6 @@ ul {
     width: 100%;
     margin: 0 auto;
   }
-  .hero__content p {
-    margin-bottom: 40px;
-  }
   .hero > .container {
     padding-top: 160px;
   }
@@ -1463,6 +1461,7 @@ ul {
   position: relative;
   max-width: 640px;
   width: 100%;
+  margin-top: 45px;
 }
 
 .hero .search, .error-page .search {
@@ -1503,7 +1502,7 @@ ul {
   margin-top: 30px;
 } 
 .popular-keywords p {
-  margin-bottom: 0;
+  margin-top: 4px;
   font-size: 16px;
   max-width: 40%;
 }
@@ -1536,6 +1535,7 @@ ul {
   .popular-keywords p {
     max-width: none;
     text-align: center;
+    margin-top: 0;
   }
   .popular-keywords__items {
     justify-content: center;
