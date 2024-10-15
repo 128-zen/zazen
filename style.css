@@ -256,7 +256,6 @@ h6 {
 .hero-text {
   font-size: 52px;
   letter-spacing: -1.65px;
-  margin-bottom: 20px;
 }
 
 h1 {
@@ -2786,10 +2785,6 @@ ul {
   margin-bottom: 0;
   max-width: 745px;
   color: $body_primary;
-}
-
-.category-page .hero-inner {
-  margin-top: 45px;
 }
 
 .category-page__content {
